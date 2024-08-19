@@ -30,6 +30,7 @@ pip install -r requirements.txt
 | ogbn-arxiv  | Download the dataset [here](https://drive.google.com/drive/folders/19d9sjCyGlC8Ia4RRWUfQEEyL4LI04roj?usp=sharing), unzip and move it to `enhance/gpt_responses/ogbn_arxiv`.|
 
 ## 3. Fine-tuning the LMs
+Download the LM [here](https://drive.google.com/drive/folders/1BwM7d8k-dxuWQJ-WJbCnLflK2ogmh3LZ?usp=sharing), unzip and move it to `LLM/deberta-base`.
 ### To use the orginal text attributes
 ```
 CUDA_VISIBLE_DEVICES=0 python -m core.trainLM dataset citeseer
